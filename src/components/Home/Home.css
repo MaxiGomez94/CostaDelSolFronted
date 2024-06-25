@@ -1,0 +1,73 @@
+.banner-Home1{
+    background-image: url("../../assets/bannerHome.png");
+    background-size:cover;
+    background-position: center;    
+    height: clamp(500px ,150dvh,1700px);
+    position: relative;
+}
+.title-bannerHome{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: clamp(70px,7dvh,10px);
+    font-size: clamp(1rem ,7dvh,9rem);
+}
+.sutitle-bannerHome{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 15%;
+    right: 1%;
+    font-size: clamp(1rem ,9dvh,9rem);
+}
+
+
+@media screen and (max-width: 500px) {
+    .banner-Home1 {
+        height: clamp(400px ,97dvh,1000px);
+        
+    }
+    .title-bannerHome{
+        top: clamp(60px,7dvh,10px);
+        font-size: clamp(25px ,7dvh,1rem);
+    }
+    .sutitle-bannerHome{
+        font-size: clamp(30px ,7dvh,1px);
+        top: 15%;
+
+    }
+  }
+  @media screen and (min-width: 501px) and (max-width: 602px) {
+    .banner-Home1 {
+        height: clamp(400px, 97dvh, 1000px);
+    }
+    .title-bannerHome{
+        top: clamp(60px,7dvh,10px);
+        font-size: clamp(25px ,7dvh,1rem);
+    }
+    .sutitle-bannerHome{
+        font-size: clamp(30px ,7dvh,1px);
+        top: 15%;
+
+    }
+    
+}
+@media screen and (min-width: 603px) and (max-width: 767px) {
+    .banner-Home1 {
+        height: clamp(500px, 50dvh, 1000px);
+    }
+    .title-bannerHome{
+        top: clamp(70px,7dvh,10px);
+        font-size: clamp(25px ,7dvh,1rem);
+    }
+    .sutitle-bannerHome{
+        font-size: clamp(30px ,7dvh,1px);
+        top: 15%;
+
+    }
+}
+@media screen and (min-width: 1140px) and (max-width: 2560px) {
+    .banner-Home1 {
+        height: clamp(500px, 100dvh, 1800px);
+    }
+}

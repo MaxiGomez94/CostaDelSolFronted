@@ -1,0 +1,9 @@
+.img-register{
+    background-image: url(../../../assets/FondoRegister.png);
+    background-size:cover;
+    background-position: center;    
+    height: clamp(600px ,160dvh,1700px);
+    position: relative;
+}
+
+
